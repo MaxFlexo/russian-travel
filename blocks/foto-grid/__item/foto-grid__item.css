@@ -1,0 +1,11 @@
+.foto-grid__item {
+  max-width: 284px;
+  max-height: 213px;
+}
+
+@media screen and (max-width: 768px) {
+  .foto-grid__item {
+    min-width: 46vw;
+    min-height: 34vw;
+  }
+}
