@@ -9,3 +9,10 @@
     min-height: 34vw;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .foto-grid__item {
+    min-width: 22vw;
+    min-height: 17vw;
+  }
+}
