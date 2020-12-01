@@ -23,6 +23,22 @@
   position: relative;
 }
 
+.cover__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
   .cover__background {
     width: 100%;
