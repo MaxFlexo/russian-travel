@@ -5,5 +5,23 @@
   line-height: 1.5;
   color: #FFFFFF;
   padding: 0;
-  margin: 28px 0 0;
+  margin-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    margin-left: 16px;
+  }
 }

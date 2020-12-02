@@ -6,6 +6,8 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 5px;
+  padding: 0;
+  list-style: none;
 }
 
 

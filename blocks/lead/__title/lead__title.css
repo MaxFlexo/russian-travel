@@ -7,6 +7,14 @@
   margin: 0 calc(280px - 148px);
 }
 
+@media screen and (max-width: 862px) {
+  .lead__title {
+    margin: 0 24px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__title {
     margin: 0 24px;
@@ -16,7 +24,5 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     margin: 0 16px;
-    font-size: 40px;
-    line-height: 1.1;
   }
 }

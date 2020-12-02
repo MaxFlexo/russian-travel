@@ -12,72 +12,74 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="логотип с картой России">
-      <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
-        <a class="header__lang-link" href="#" target="_blank">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li class="header__lang-link-container"><a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a></li>
+        <li class="header__lang-link-container"><a class="header__lang-link" href="#" target="_blank">En</a></li>
+      </ul>
     </header>
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/lead-polka.jpg" alt="девушка спит в плацкартном вагоне">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__illustration">
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="девушка спит в плацкартном вагоне">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
-        <article class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
           вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
           красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
-        </article>
+        </p>
         <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list intro__list_volume">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_volume">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_volume">16</span></li>
-          <li>Природных заповедников <span class="intro__list intro__list_volume">105</span></li>
-          <li>Аэропортов <span class="intro__list intro__list_volume">241</span></li>
+          <li>Часовых поясов <span class="intro__list-volume">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-volume">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-volume">16</span></li>
+          <li>Природных заповедников <span class="intro__list-volume">105</span></li>
+          <li>Аэропортов <span class="intro__list-volume">241</span></li>
         </ul>
       </section>
       <section>
         <ul class="foto-grid">
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-train.jpg" alt="окно в вагоне поезда">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="заснеженные горные вершины">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-tuman.jpg" alt="собака на стоге сена">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-sochi.jpg" alt="кроны деревьев в тумане">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-arisa.jpg" alt="машина едет по льду">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-baikal.jpg" alt="пляж и горы">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-elbrus.jpg" alt="заснеженный горный пик">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-kondratiev.jpg"
               alt="бетонные конструкции и знак пешехода">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="вид сверху на горы Камчатки">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="подножье горы">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="скала на берегу озера">
           </li>
-          <li>
+          <li class="foto-grid__item-container">
             <img class="foto-grid__item" src="./images/photo-grid-ergaki.jpg" alt="горы в облачной дымке">
           </li>
         </ul>
@@ -175,23 +177,23 @@
       </section>
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <div class="cover__background">
-            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
-          </div>
         </a>
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__link-container"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__link-container"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__link-container"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__link-container"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__link-container"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
       </nav>
-      <address class="footer__copyright">© 2020. Максим Бубнов</address>
+      <p class="footer__copyright">© 2020. Максим Бубнов</p>
     </footer>
   </div>
 </body>

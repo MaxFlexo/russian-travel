@@ -6,7 +6,6 @@
   -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   text-decoration: none;
-  margin-right: 19px;
 }
 
 .footer__link:hover {
@@ -14,18 +13,8 @@
   opacity: 0.8;
 }
 
-.footer__link:last-of-type {
-  margin-right: 0;
-}
-
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;
     line-height: 1;
-    margin-bottom: 32px;
-    margin-right: 0;
-  }
-  .footer__link:last-of-type {
-    margin-bottom: 48px;
-  }
 }
