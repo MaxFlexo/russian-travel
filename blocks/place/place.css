@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 320px) {
   .place {
     padding: 0;
     display: -webkit-box;
