@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
   .footer {
     padding: 64px 118px 24px 16px;
     -webkit-box-orient: vertical;
